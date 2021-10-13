@@ -1,0 +1,211 @@
+html {
+	font-family: sans-serif;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	background-color: #fafafa;
+}
+
+a {
+	text-decoration: none;
+}
+
+.table {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 0 10px;
+	background-color: white;
+}
+
+.side-bar {
+	width: 300px;
+}
+
+.content {
+	flex-grow: 1;
+	margin-left: 45px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	flex-grow: 1;
+	position: relative;
+}
+
+.tools {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px 20px;
+	width: 75%;
+	margin-bottom: 20px;
+}
+
+.button {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	margin-right: 40px;
+}
+
+.button>a {
+	color: black
+}
+
+.form {
+	width: 100%;
+	padding: 10px 10px;
+	display: flex;
+	align-items: center;
+	background-color: white;
+	margin-top: 10px;
+}
+
+.form form {
+	display: flex;
+	align-items: center;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+.element {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10px;
+	margin-bottom: 1px;
+	color: black;
+}
+
+.element p {
+	margin-right: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.element .input {
+	width: 200px;
+	height: 30px;
+	outline: none;
+	font-size: 14px;
+	border-width: 0 0 1px 0;
+	border-bottom: 1px solid rgb(113, 113, 113);
+	text-align: center;
+}
+
+.submit input[type="submit"] {
+	outline: none;
+	width: 100px;
+	height: 30px;
+	font-size: 14px;
+	color: white;
+	background-color: rgb(113, 113, 113);
+	border: none;
+	cursor: pointer;
+	margin-left: 30px;
+}
+
+.element select {
+	width: 156px;
+	height: 34px;
+	outline: none;
+	border: 1px solid rgb(113, 113, 113);
+	padding: 1px 2px;
+	font-size: 14px;
+}
+
+.element option {
+	width: 150px;
+	height: 30px;
+	border: 1px solid rgb(113, 113, 113);
+	padding: 1px 2px;
+	font-size: 16px;
+}
+
+.submit {
+	display: flex;
+	align-items: center;
+}
+
+.group-input {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 150px;
+}
+
+.group-input div {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.input.small {
+	width: 30px;
+	margin: 0 15px;
+}
+
+.element-table {
+	display: flex;
+	align-items: center;
+	padding: 20px 10px;
+}
+
+.border {
+	border-bottom: 1px solid rgba(113, 113, 113, 0.5);
+}
+
+.italic p {
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.item {
+	width: 150px;
+	text-align: center;
+}
+
+.form-table {
+	display: flex;
+	align-items: center
+}
+
+.input-table {
+	outline: none;
+	text-align: center;
+	font-size: 16px;
+}
+
+input[type="text"].input-table {
+	width: 50%;
+	border-width: 0 0 1px 0;
+	border-bottom: 1px solid rgb(113, 113, 113);
+	padding: 10px 10px;
+}
+
+.submit-input-table {
+	outline: none;
+	border: 1px solid rgba(113, 113, 113, 0.5);
+	color: white;
+	padding: 5px 5px;
+	cursor: pointer;
+}
+
+.update {
+	background-color: green;
+}
+
+.delete {
+	background-color: red;
+}

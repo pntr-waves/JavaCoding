@@ -1,0 +1,156 @@
+html {
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #fafafa;
+}
+
+.side-bar {
+    width: 300px;
+}
+
+.content {
+    flex-grow: 1;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 10px;
+}
+
+form div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    padding: 1px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.button {
+    background-color: grey;
+    border-radius: 1px;
+    padding: 10px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 500px;
+    padding: 2px 10px;
+    margin-bottom: 1px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.7) 0%,
+        rgba(113, 113, 113, 1) 81%);
+    width: 500px;
+    color: white;
+}
+
+.element p {
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.element .input {
+    width: 300px;
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid rgb(113, 113, 113);
+}
+
+.submit input[type="submit"] {
+    outline: none;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(113, 113, 113);
+    border: none;
+    cursor: pointer;
+}
+
+.element select {
+    width: 306px;
+    height: 34px;
+    outline: none;
+    border: 1px solid rgb(113, 113, 113);
+    padding: 1px 2px;
+    font-size: 16px;
+}
+
+.element option {
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgb(113, 113, 113);
+    padding: 1px 2px;
+    font-size: 16px;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+}
+
+.submit div {
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 1px solid rgb(113, 113, 113);
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin-top: 10px;
+    cursor: pointer;
+}
