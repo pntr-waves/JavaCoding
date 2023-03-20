@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//src/truong/e1000/candidatemanagement/Main.java=UTF-8
+encoding//src/truong/e1000/candidatemanagement/data/CandidateDataTestingBuilder.java=UTF-8
+encoding//src/truong/e1000/candidatemanagement/model/Candidate.java=UTF-8
+encoding//src/truong/e1000/candidatemanagement/service/CandidateManagementService.java=UTF-8
+encoding//src/truong/e1000/employeemanagement/Main.java=UTF-8
+encoding//src/truong/e1000/employeemanagement/data/EmployeeDataTestingBuilder.java=UTF-8
+encoding//src/truong/e1000/employeemanagement/model/Employee.java=UTF-8
+encoding//src/truong/e1000/employeemanagement/service/EmployeeManagementService.java=UTF-8
+encoding//src/truong/e1000/essaymanagement/Main.java=UTF-8
+encoding//src/truong/e1000/essaymanagement/model/Essay.java=UTF-8
+encoding//src/truong/e1000/essaymanagement/service/EssayManagementService.java=UTF-8
+encoding//src/truong/e1000/playermanagement/Main.java=UTF-8
+encoding//src/truong/e1000/playermanagement/data/PlayerDataTestingBuilder.java=UTF-8
+encoding//src/truong/e1000/playermanagement/model/Player.java=UTF-8
+encoding//src/truong/e1000/playermanagement/service/PlayerManagementService.java=UTF-8
